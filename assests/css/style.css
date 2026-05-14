@@ -346,3 +346,42 @@ ul {
     color: #0f4c81;
     margin-bottom: 0.5rem;
 }
+/* =========================
+   11. Projects Section
+========================= */
+.projects-list {
+    display: grid;
+    gap: 1.5rem;
+}
+
+.project-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.project-item {
+    background-color: #ffffff;
+    padding: 1.75rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 16px rgba(15, 76, 129, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-item h2 {
+    margin-bottom: 0.75rem;
+}
+
+.project-item img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.project-item:hover,
+.project-link:hover .project-item {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 22px rgba(15, 76, 129, 0.14);
+    cursor: pointer;
+}
