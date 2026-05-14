@@ -385,3 +385,37 @@ ul {
     box-shadow: 0 8px 22px rgba(15, 76, 129, 0.14);
     cursor: pointer;
 }
+/* =========================
+   12. CTA Section
+========================= */
+.cta-section {
+    background-color: #0f4c81;
+    color: #ffffff;
+}
+
+/* =========================
+   13. Footer
+========================= */
+.site-footer {
+    background-color: #0b1f3a;
+    color: #ffffff;
+    padding: 1.5rem 0;
+}
+
+.footer-flex {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer-links {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.footer-links a {
+    color: #ffffff;
+}
