@@ -14,7 +14,7 @@ The project was also developed to meet the learning outcomes for Milestone 1: Us
 ## Live Links
 
 **Live Website:**
-[https://github.com/Nmudassar/portfolio/](https://github.com/Nmudassar/portfolio/)
+[https://nmudassar.github.io/portfolio/](https://nmudassar.github.io/portfolio/)
 
 **GitHub Repository:**
 [https://github.com/Nmudassar/portfolio](https://github.com/Nmudassar/portfolio)
