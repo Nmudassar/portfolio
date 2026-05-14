@@ -36,3 +36,27 @@ a:focus {
 ul {
     list-style: none;
 }
+/* =========================
+   2. Utility Classes
+========================= */
+.container {
+    width: 90%;
+    max-width: 1120px;
+    margin: 0 auto;
+}
+
+.narrow {
+    max-width: 760px;
+}
+
+.center {
+    text-align: center;
+}
+
+.section {
+    padding: 4rem 0;
+}
+
+.section-alt {
+    background-color: #eef3f9;
+}
