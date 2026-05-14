@@ -9,18 +9,21 @@
 </head>
 <body>
     <a class="skip-link" href="#main-content">Skip to content</a>
-    <header>
-        <div>
-            <nav>
-                <ul>
+
+    <header class="site-header">
+        <div class="container">
+            <nav class="navbar" aria-label="Main navigation">
+                <a class="logo" href="index.html">Nadia<span>Portfolio</span></a>
+                <ul class="nav-links">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="about.html">About</a></li>
                     <li><a href="projects.html">Projects</a></li>
-                    <li><a href="contact.html" class="active">Contact</a></li>
+                    <li><a class="active" href="contact.html" aria-current="page">Contact</a></li>
                 </ul>
             </nav>
         </div>
     </header>
+
     <main id="main-content">
         <section class="page-banner">
             <div class="container">
@@ -35,7 +38,16 @@
                     <h2>Contact Information</h2>
                     <p><strong>Name:</strong> Nadia Mudassar</p>
                     <p><strong>Email:</strong> nmudassar21@outlook.com</p>
+                    <p>
+                        <strong>LinkedIn:</strong>
+                        <a href="https://www.linkedin.com/in/nadiamudassar21/" target="_blank" rel="noopener noreferrer">
+                            linkedin.com/in/nadiamudassar21
+                        </a>
+                    </p>
+                    <p><strong>GitHub:</strong> <a href="https://github.com/Nmudassar" target="_blank" rel="noopener noreferrer">github.com/Nmudassar</a></p>
+                    <p><strong>Availability:</strong> Open to cloud, DevOps and technical support roles.</p>
                 </article>
+
                 <article class="card">
                     <h2>Why Work With Me?</h2>
                     <p>
@@ -46,6 +58,7 @@
                 </article>
             </div>
         </section>
+
         <section class="section section-alt">
             <div class="container narrow center">
                 <h2>Let’s Connect</h2>
@@ -57,5 +70,15 @@
         </section>
     </main>
 
+    <footer class="site-footer">
+        <div class="container footer-flex">
+            <p>&copy; 2026 Nadia Portfolio</p>
+            <ul class="footer-links">
+                <li><a href="https://github.com/Nmudassar" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+                <li><a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </footer>
 </body>
 </html>
