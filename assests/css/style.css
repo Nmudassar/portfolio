@@ -168,3 +168,51 @@ ul {
     background-color: #12345d;
     text-decoration: none;
 }
+/* =========================
+   5. Hero Section
+========================= */
+.hero {
+    background: linear-gradient(135deg, #0b1f3a, #12345d);
+    color: #ffffff;
+    padding: 5rem 0;
+}
+
+.hero-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 2rem;
+    align-items: center;
+}
+
+.eyebrow {
+    font-size: 0.95rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #7dd3fc;
+    margin-bottom: 0.75rem;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero-intro {
+    max-width: 650px;
+    margin-bottom: 1.5rem;
+}
+
+.hero-card {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 1.5rem;
+    border-radius: 12px;
+}
+
+.hero-card h2 {
+    margin-bottom: 1rem;
+}
+
+.profile-list li {
+    margin-bottom: 0.6rem;
+}
