@@ -1,56 +1,172 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Basic page setup -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nadia Portfolio</title>
+    <meta name="description" content="Personal portfolio website for Nadia,  Cloud Engineer and DevOps enthusiast.">
+    <title>Nadia Portfolio | Home</title>
+
+    <!-- Main stylesheet -->
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <header>
-    <h1>Nadia Mudassar</h1>
-    <nav>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-    </nav>
-</header>
-<main>
-    <section>
-        <h2>Welcome</h2>
-        <p>This is my professional portfolio where I showcase my DevOps skills, cloud projects, and experience in building and managing scalable infrastructure.</p>/p>
-    </section>
+    <!-- Skip link for accessibility -->
+    <a class="skip-link" href="#main-content">Skip to content</a>
 
-    <section>
-    <h2>Contact Me</h2>
-    <form>
-        <label for="name">Name:</label><br>
-        <input type="text" id="name" name="name" placeholder="Nadia Mudassar"><br><br>
+    <!-- Header -->
+    <header class="site-header">
+        <div class="container">
+            <nav class="navbar" aria-label="Main navigation">
+                <a class="logo" href="index.html">Nadia<span>Portfolio</span></a>
 
-        <label for="email">Email:</label><br>
-        <input type="email" id="email" name="email" placeholder="nmudassar21@outlook.com"><br><br>
+                <ul class="nav-links">
+                    <li><a class="active" href="index.html" aria-current="page">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-        <label for="message">Message:</label><br>
-        <textarea id="message" name="message" placeholder="“Can you help with a cloud infrastructure project?"></textarea><br><br>
+    <main id="main-content">
+        <!-- Hero section -->
+        <section class="hero">
+            <div class="container hero-grid">
+                <div class="hero-text">
+                    <p class="eyebrow">Cloud Engineer</p>
+                    <h1>Hi, I’m Nadia</h1>
+                    <p class="hero-intro">
+                        I build reliable cloud infrastructure and deployment solutions using
+                        Azure, AWS, Terraform, Kubernetes, Docker and Azure DevOps.
+                    </p>
 
-        <button type="submit">Send</button>
-    </form>
-</section>
-<section>
-    <h2>Projects</h2>
-    <ul>
-    <li><strong>AKS Project:</strong> Deployed Kubernetes cluster on Azure</li>
-    <li><strong>Terraform Project:</strong> Automated infrastructure setup</li>
-    <li><strong>CI/CD Pipeline:</strong> Automated build and deployment</li>
-</ul>
-</section>
-</main>
-<footer>
-    <p>&copy; 2026 Nadia Mudassar</p>
-    <p>DevOps & Cloud Engineer</p>
-    <p><a href="#">GitHub</a> | <a href="#">LinkedIn</a></p>
-</footer>
+                    <div class="button-group">
+                        <a class="btn" href="projects.html">View Projects</a>
+                        <a class="btn btn-secondary" href="contact.html">Contact Me</a>
+                        <a class="btn" href="assets/docs/nadia-mudassar-cv.pdf" target="_blank" rel="noopener noreferrer">View CV</a>
+                        <a class="btn btn-secondary" href="assets/docs/nadia-mudassar-cv.pdf" download="nadia-mudassar-cv.pdf">Download CV</a>
+                                         
+                    </div>
+                </div>
+
+                <div class="hero-card">
+                    <h2>Quick Profile</h2>
+                    <ul class="profile-list">
+                        <li><strong>Role:</strong>  Cloud Engineer</li>
+                        <li><strong>Focus:</strong> Cloud, DevOps, Automation</li>
+                        <li><strong>Platforms:</strong> Azure & AWS</li>
+                        <li><strong>Tools:</strong> Terraform, AKS, EKS, Docker, Helm</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- About preview -->
+        <section class="section">
+            <div class="container narrow">
+                <h2>About Me</h2>
+                <p>
+                    I am a cloud-focused professional with hands-on experience in infrastructure
+                    automation, Kubernetes, CI/CD pipelines, and technical support. I enjoy
+                    solving problems, learning new technologies, and building efficient,
+                    secure and scalable environments.
+                </p>
+                <a class="text-link" href="about.html">Read more about my background</a>
+            </div>
+        </section>
+
+        <!-- Skills -->
+        <section class="section section-alt">
+            <div class="container">
+                <h2>Core Skills</h2>
+                <div class="card-grid">
+                    <article class="card">
+                        <h3>Cloud Platforms</h3>
+                        <p>Azure, AWS, virtual networking, infrastructure services.</p>
+                    </article>
+                    <article class="card">
+                        <h3>Infrastructure as Code</h3>
+                        <p>Terraform modules, variables, remote state and deployments.</p>
+                    </article>
+                    <article class="card">
+                        <h3>Containers & Kubernetes</h3>
+                        <p>Docker, AKS, EKS, Helm, scaling, ingress and workloads.</p>
+                    </article>
+                    <article class="card">
+                        <h3>CI/CD</h3>
+                        <p>Azure DevOps pipelines, automated build and deployment workflows.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured projects -->
+        <section class="section">
+            <div class="container">
+                <h2>Featured Projects</h2>
+                <div class="card-grid">
+                    <article class="card">
+                        <h3>AKS Infrastructure Project</h3>
+                        <p>
+                            Designed and deployed Azure Kubernetes Service environments with
+                            Terraform and Azure DevOps.
+                        </p>
+                    </article>
+                    <article class="card">
+                        <h3>AWS EKS Cluster Deployment</h3>
+                        <p>
+                            Built an AWS EKS setup with networking, node groups,
+                            autoscaling and Kubernetes resources.
+                        </p>
+                    </article>
+                    <article class="card">
+                        <h3>Pipeline Automation</h3>
+                        <p>
+                            Created scheduled deployment pipelines and improved release
+                            efficiency using Azure DevOps.
+                        </p>
+                    </article>
+                </div>
+
+                <div class="center">
+                    <a class="btn" href="projects.html">See All Projects</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA -->
+        <section class="section cta-section">
+            <div class="container narrow center">
+                <h2>Interested in working with me?</h2>
+                <p>
+                    I am open to opportunities in cloud engineering, DevOps and technical support.
+                </p>
+                <a class="btn" href="contact.html">Get In Touch</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-flex">
+            <p>&copy; 2026 Nadia Portfolio</p>
+            <ul class="footer-links">
+                <li>
+                    <a href="https://github.com/Nmudassar" target="_blank" rel="noopener noreferrer">
+                        GitHub
+                    </a>
+                </li>
+
+                <li>
+                    <a href="https://www.linkedin.com/in/nadiamudassar21/" target="_blank" rel="noopener noreferrer">
+                        LinkedIn
+                    </a>
+                </li>
+
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </footer>
 </body>
 </html>
