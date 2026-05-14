@@ -60,3 +60,22 @@ ul {
 .section-alt {
     background-color: #eef3f9;
 }
+
+/* =========================
+   3. Accessibility
+========================= */
+.skip-link {
+    position: absolute;
+    left: -9999px;
+    top: auto;
+}
+
+.skip-link:focus {
+    left: 1rem;
+    top: 1rem;
+    background: #ffffff;
+    color: #000000;
+    padding: 0.75rem 1rem;
+    border: 2px solid #0f4c81;
+    z-index: 1000;
+}
